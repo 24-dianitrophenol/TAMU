@@ -41,17 +41,17 @@ export default function Footer() {
               Creating exceptional digital experiences through innovative web solutions.
             </p>
             <div className="space-y-2">
-              <a href="https://wa.me/256705142478" className="flex items-center text-gray-300 hover:text-orange-400 transition-colors">
+              <a href="https://wa.me/256765458906" className="flex items-center text-gray-300 hover:text-orange-400 transition-colors">
                 <WhatsApp className="h-5 w-5 mr-2" />
-                +256 705 142 478
+                +256 765 458906
               </a>
-              <a href="mailto:info@example.com" className="flex items-center text-gray-300 hover:text-orange-400 transition-colors">
+              <a href="mailto:tamuwebsolutions@gmail.com" className="flex items-center text-gray-300 hover:text-orange-400 transition-colors">
                 <Mail className="h-5 w-5 mr-2" />
-                info@example.com
+                tamuwebsolutions@gmail.com
               </a>
               <div className="flex items-center text-gray-300">
                 <MapPin className="h-5 w-5 mr-2" />
-                123 Tech Street, Digital City
+                Banda, Kampala-Uganda
               </div>
             </div>
             

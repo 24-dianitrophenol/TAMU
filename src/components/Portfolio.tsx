@@ -1,25 +1,29 @@
 import React from 'react';
+import webImage from './images/projects/EC.jpeg';
+import uiImage from './images/projects/auy.jpeg';
+import devImage from './images/projects/mobile.jpeg';
+import cloudImage from './images/projects/cloud.jpeg';
 
 const projects = [
   {
     title: 'E-Commerce Platform',
     category: 'Web Development',
-    image: 'https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800'
+    image: webImage
   },
   {
     title: 'Corporate Website',
     category: 'UI/UX Design',
-    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&q=80&w=800'
+    image: uiImage
   },
   {
     title: 'Mobile App',
     category: 'Development',
-    image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800'
+    image: devImage
   },
   {
     title: 'Cloud Platform',
     category: 'Web Hosting',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800'
+    image: cloudImage
   }
 ];
 

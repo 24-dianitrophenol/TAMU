@@ -18,7 +18,7 @@ export default function Contact() {
       `*Service:* ${formData.service}\n` +
       `*Message:* ${formData.message}`
     );
-    window.open(`https://wa.me/256705142478?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/256765458906?text=${whatsappMessage}`, '_blank');
   };
 
   return (
@@ -30,19 +30,19 @@ export default function Contact() {
             <h3 className="text-2xl font-semibold text-indigo-900 mb-4">Contact Information</h3>
             <div className="flex items-center space-x-4">
               <Phone className="h-6 w-6 text-teal-500" />
-              <a href="tel:+256705142478" className="text-gray-600 hover:text-teal-500">
-                +256 705 142 478
+              <a href="tel:+256765458906" className="text-gray-600 hover:text-teal-500">
+              +256 765 458906
               </a>
             </div>
             <div className="flex items-center space-x-4">
               <Mail className="h-6 w-6 text-indigo-900" />
-              <a href="mailto:info@example.com" className="text-gray-600 hover:text-indigo-900">
-                info@example.com
+              <a href="mailto:tamuwebsolutions@gmail.com" className="text-gray-600 hover:text-indigo-900">
+              tamuwebsolutions@gmail.com
               </a>
             </div>
             <div className="flex items-center space-x-4">
               <MapPin className="h-6 w-6 text-indigo-900" />
-              <span className="text-gray-600">123 Tech Street, Digital City</span>
+              <span className="text-gray-600">Banda, Kampala-Uganda</span>
             </div>
             <div className="flex items-center space-x-4">
               <Clock className="h-6 w-6 text-indigo-900" />

@@ -126,13 +126,6 @@ export default function Team() {
                   >
                     <Linkedin className="h-5 w-5" />
                   </motion.a>
-                  <motion.a
-                    whileHover={{ scale: 1.2 }}
-                    href={member.social.twitter}
-                    className="text-indigo-900 hover:text-orange-400"
-                  >
-                    <Twitter className="h-5 w-5" />
-                  </motion.a>
                 </div>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
