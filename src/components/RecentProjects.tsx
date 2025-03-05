@@ -4,24 +4,21 @@ import { ExternalLink, Code, Layout, ArrowRight } from 'lucide-react';
 
 const recentProjects = [
   {
-    title: "Tamu's Restaurant",
-    description: "A modern restaurant website with online ordering capabilities",
+    title: "Flamia",
+    description: "Offers reliable gas refill services and brand-new cylinders for your home or business needs. Our high-quality gas ensures safe and efficient performance for cooking, heating, and more.",
     image: "/images/projects/flamia.png",
-    tags: ["React", "Tailwind CSS", "Node.js"],
+    link: "flamia.store"
+  },
+  {
+    title: "Mk Stores",
+    description: "We pride ourselves on offering a wide range of fresh, high-quality food products to meet the needs of every household.",
+    image: "/images/projects/mk.png",
     link: "#"
   },
   {
-    title: "Tamu's E-commerce",
-    description: "Full-featured online store with payment integration",
-    image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=800",
-    tags: ["React", "Redux", "Stripe"],
-    link: "#"
-  },
-  {
-    title: "Tamu's Portfolio",
-    description: "Elegant portfolio website showcasing creative work",
-    image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&q=80&w=800",
-    tags: ["React", "Framer Motion", "Tailwind CSS"],
+    title: "M.A Events",
+    description: "We specialize in stunning Event decorations and top-tier outside catering, bringing elegance, creativity, and exceptional taste to every occasion.",
+    image: "/images/projects/maevents.png",
     link: "#"
   }
 ];
@@ -92,18 +89,7 @@ export default function RecentProjects() {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-indigo-900 mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag, tagIndex) => (
-                    <span 
-                      key={tagIndex} 
-                      className="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                
+                 
                 <a 
                   href={project.link} 
                   className="inline-flex items-center text-teal-500 hover:text-teal-700"

@@ -4,31 +4,30 @@ import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const team = [
   {
-    name: 'John Smith',
+    name: 'BANGOLE ALVIN',
     role: 'Lead Developer',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
-    bio: 'Full-stack developer with 10+ years of experience in web technologies.',
+    image: '/images/team/alvin.png',
+    bio: 'Full-stack developer with 3+ years of experience in web technologies.',
     social: {
-      github: '#',
-      linkedin: '#',
-      twitter: '#'
+      github: 'https://github.com/24-dianitrophenol/portfolio',
+      linkedin: 'https://www.linkedin.com/in/bangole-alvin-6a0520341'
     }
   },
   {
-    name: 'Sarah Johnson',
+    name: 'ZIMULA FARID',
     role: 'UI/UX Designer',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400',
+    image: '/images/team/farid.png',
     bio: 'Creative designer passionate about creating beautiful and intuitive user experiences.',
     social: {
       github: '#',
       linkedin: '#',
-      twitter: '#'
     }
   },
+  
   {
-    name: 'Michael Chen',
+    name: 'LADU DAVID',
     role: 'Backend Developer',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400',
+    image: '/images/team/David.jpg',
     bio: 'Expert in scalable architecture and cloud infrastructure.',
     social: {
       github: '#',
@@ -36,10 +35,11 @@ const team = [
       twitter: '#'
     }
   },
+
   {
-    name: 'Emily Davis',
+    name: 'LAPTER FARAHAN',
     role: 'Project Manager',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400',
+    image: '/public/images/team/lapter.png',
     bio: 'Experienced in leading complex web development projects to success.',
     social: {
       github: '#',
