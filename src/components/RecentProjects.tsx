@@ -1,24 +1,28 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Code, Layout, ArrowRight } from 'lucide-react';
+import flamia from './images/projects/flamia.png';
+import mk from './images/projects/mk.png';
+import maevents from './images/projects/maevents.png';
+import { image } from 'framer-motion/client';
 
 const recentProjects = [
   {
     title: "Flamia",
     description: "Offers reliable gas refill services and brand-new cylinders for your home or business needs. Our high-quality gas ensures safe and efficient performance for cooking, heating, and more.",
-    image: "/images/projects/flamia.png",
+    image: flamia,
     link: "flamia.store"
   },
   {
     title: "Mk Stores",
     description: "We pride ourselves on offering a wide range of fresh, high-quality food products to meet the needs of every household.",
-    image: "/images/projects/mk.png",
+    image: mk,
     link: "#"
   },
   {
     title: "M.A Events",
     description: "We specialize in stunning Event decorations and top-tier outside catering, bringing elegance, creativity, and exceptional taste to every occasion.",
-    image: "/images/projects/maevents.png",
+    image: maevents,
     link: "#"
   }
 ];
