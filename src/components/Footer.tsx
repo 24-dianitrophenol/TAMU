@@ -1,7 +1,9 @@
 import React from 'react';
-import { Mail, MapPin, Apple as WhatsApp, Home, Briefcase, Users, Phone, Heart, Code, Server, PenTool, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { FaTiktok } from 'react-icons/fa';
+import { Mail, MapPin, Apple as WhatsApp, Home, Briefcase, Users, Phone, Heart, Code, Server, PenTool, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import footerImage from './images/logo/logo.png';
+import backImage from './images/projects/footer.jpg';
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
@@ -16,7 +18,7 @@ export default function Footer() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/projects/footer.jpg"
+          src={backImage}
           alt="Footer Background"
           className="w-full h-full object-cover opacity-10"
         />
@@ -58,16 +60,16 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex space-x-4 mt-6">
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
-                <Facebook className="h-5 w-5" />
+                <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
-                <Instagram className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </a>
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
-                <Linkedin className="h-5 w-5" />
+                <FaTiktok className="h-5 w-5" />
               </a>
             </div>
           </div>
