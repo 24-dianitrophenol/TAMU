@@ -11,7 +11,7 @@ const recentProjects = [
     title: "Flamia",
     description: "Offers reliable gas refill services and brand-new cylinders for your home or business needs. Our high-quality gas ensures safe and efficient performance for cooking, heating, and more.",
     image: flamia,
-    link: "flamia.store"
+    link: "https://flamia.store/refill"
   },
   {
     title: "Mk Stores",
