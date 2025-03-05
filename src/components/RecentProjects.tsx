@@ -6,7 +6,7 @@ const recentProjects = [
   {
     title: "Tamu's Restaurant",
     description: "A modern restaurant website with online ordering capabilities",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
+    image: "/images/projects/flamia.png",
     tags: ["React", "Tailwind CSS", "Node.js"],
     link: "#"
   },
