@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail, MapPin, Apple as WhatsApp, Home, Briefcase, Users, Phone, Heart, Code, Server, PenTool, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import footerImage from './images/logo/logo.png';
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
@@ -31,7 +32,7 @@ export default function Footer() {
           <div>
             <Link to="/" className="flex items-center mb-4">
               <img 
-                src="/images/logo/logo.png" 
+                src={footerImage} 
                 alt="Logo" 
                 className="h-10 w-auto" 
               />

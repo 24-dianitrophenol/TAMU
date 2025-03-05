@@ -1,12 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import alvinImage from './images/team/alvin.png';
+import DavidImage from './images/team/David.jpg';
+import faridImage from './images/team/farid.png';
+import lapterImage from './images/team/lapter.png';
 
 const team = [
   {
     name: 'BANGOLE ALVIN',
     role: 'Lead Developer',
-    image: '/images/team/alvin.png',
+    image: alvinImage,
     bio: 'Full-stack developer with 3+ years of experience in web technologies.',
     social: {
       github: 'https://github.com/24-dianitrophenol/portfolio',
@@ -16,7 +20,7 @@ const team = [
   {
     name: 'ZIMULA FARID',
     role: 'UI/UX Designer',
-    image: '/images/team/farid.png',
+    image: faridImage,
     bio: 'Creative designer passionate about creating beautiful and intuitive user experiences.',
     social: {
       github: '#',
@@ -27,7 +31,7 @@ const team = [
   {
     name: 'LADU DAVID',
     role: 'Backend Developer',
-    image: '/images/team/David.jpg',
+    image: DavidImage,
     bio: 'Expert in scalable architecture and cloud infrastructure.',
     social: {
       github: '#',
@@ -39,7 +43,7 @@ const team = [
   {
     name: 'LAPTER FARAHAN',
     role: 'Project Manager',
-    image: '/public/images/team/lapter.png',
+    image: lapterImage,
     bio: 'Experienced in leading complex web development projects to success.',
     social: {
       github: '#',
