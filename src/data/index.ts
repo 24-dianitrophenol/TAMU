@@ -19,7 +19,7 @@ export const images = {
     ]
   },
   team: {
-    johnSmith: '/images/team/john-smith.jpg',
+    johnSmith: '/images/team/alvin.png',
     sarahJohnson: '/images/team/sarah-johnson.jpg',
     michaelChen: '/images/team/michael-chen.jpg',
     emilyDavis: '/images/team/emily-davis.jpg'
@@ -49,21 +49,18 @@ export const recentProjects = [
     title: "Tamu's Restaurant",
     description: "A modern restaurant website with online ordering capabilities",
     image: images.projects.web[0],
-    tags: ["React", "Tailwind CSS", "Node.js"],
     link: "#"
   },
   {
     title: "Tamu's E-commerce",
     description: "Full-featured online store with payment integration",
     image: images.projects.web[1],
-    tags: ["React", "Redux", "Stripe"],
     link: "#"
   },
   {
     title: "Tamu's Portfolio",
     description: "Elegant portfolio website showcasing creative work",
     image: images.projects.web[2],
-    tags: ["React", "Framer Motion", "Tailwind CSS"],
     link: "#"
   }
 ];
