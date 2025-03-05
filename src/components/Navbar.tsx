@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center">
             <img 
-              src={navImage} 
+              src={navImage}
               alt="Logo" 
               className="h-10 w-auto" 
             />
