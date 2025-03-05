@@ -43,9 +43,9 @@ export default function Footer() {
               Creating exceptional digital experiences through innovative web solutions.
             </p>
             <div className="space-y-2">
-              <a href="https://wa.me/256765458906" className="flex items-center text-gray-300 hover:text-orange-400 transition-colors">
+              <a href="https://wa.me/256782283902" className="flex items-center text-gray-300 hover:text-orange-400 transition-colors">
                 <WhatsApp className="h-5 w-5 mr-2" />
-                +256 765 458906
+               +256 782 283902
               </a>
               <a href="mailto:tamuwebsolutions@gmail.com" className="flex items-center text-gray-300 hover:text-orange-400 transition-colors">
                 <Mail className="h-5 w-5 mr-2" />

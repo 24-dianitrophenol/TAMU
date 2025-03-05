@@ -161,7 +161,7 @@ function ContactForm({ service, onClose }: ContactFormProps) {
             type="button"
             onClick={() => {
               const message = `Hello, I am ${formData.name}. My email is ${formData.email}. ${formData.message}`;
-              const whatsappUrl = `https://wa.me/256765458906?text=${encodeURIComponent(message)}`;
+              const whatsappUrl = `https://wa.me/256782283902?text=${encodeURIComponent(message)}`;
               window.open(whatsappUrl, '_blank');
             }}
             className="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-400 transition-colors mt-2"
