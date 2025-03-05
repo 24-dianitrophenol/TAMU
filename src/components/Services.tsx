@@ -149,14 +149,25 @@ function ContactForm({ service, onClose }: ContactFormProps) {
               onChange={(e) => setFormData({ ...formData, message: e.target.value })}
             ></textarea>
           </div>
-          <motion.button
+            <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             type="submit"
             className="w-full bg-indigo-900 text-white py-2 px-4 rounded-md hover:bg-indigo-800 transition-colors"
-          >
+            >
             Send Message
-          </motion.button>
+            </motion.button>
+            <button
+            type="button"
+            onClick={() => {
+              const message = `Hello, I am ${formData.name}. My email is ${formData.email}. ${formData.message}`;
+              const whatsappUrl = `https://wa.me/256765458906?text=${encodeURIComponent(message)}`;
+              window.open(whatsappUrl, '_blank');
+            }}
+            className="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-400 transition-colors mt-2"
+            >
+            Send via WhatsApp
+            </button>
         </form>
       </motion.div>
     </motion.div>

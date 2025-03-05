@@ -31,7 +31,7 @@ export default function Booking() {
       `*Service:* ${formData.service}\n` +
       `*Message:* ${formData.message}`
     );
-    window.open(`https://wa.me/256705142478?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/256765458906?text=${whatsappMessage}`, '_blank');
   };
 
   return (

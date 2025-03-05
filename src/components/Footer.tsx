@@ -59,13 +59,13 @@ export default function Footer() {
             
             {/* Social Media Icons */}
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
+              <a href="https://www.instagram.com/tamuwebsolutions1?igsh=MmI5OXA2aGhrdjJu" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
+              <a href="https://x.com/tamuwebsolution?t=6-FLSx3Nv0ELUFQhFp-uUw&s=08" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
@@ -168,7 +168,7 @@ export default function Footer() {
         <div className="border-t border-indigo-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300">
-              © {new Date().getFullYear()} All rights reserved.
+              © {new Date().getFullYear()} All rights reserved TAMU WEB.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-gray-300 hover:text-orange-400 transition-colors">Privacy Policy</a>
