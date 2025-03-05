@@ -1,7 +1,7 @@
 import { Code, PenTool, Server, Smartphone } from 'lucide-react';
 
 export const images = {
-  logo: '/public/images/logo/logo.png',
+  logo: '/images/logo/logo.png',
   hero: [
     '/images/hero/hero1.jpg',
     '/images/hero/hero2.jpg',
