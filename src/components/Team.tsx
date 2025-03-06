@@ -11,7 +11,7 @@ const team = [
     name: 'BANGOLE ALVIN',
     role: 'Lead Developer',
     image: alvinImage,
-    bio: 'Full-stack developer with 3+ years of experience in web technologies.',
+    bio: 'Full-stack developer with 2+ years of experience in web technologies.',
     social: {
       github: 'https://github.com/24-dianitrophenol/portfolio',
       linkedin: 'https://www.linkedin.com/in/bangole-alvin-6a0520341'
