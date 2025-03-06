@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import SearchBar from './SearchBar';
-import Image from './images/logo/logo.png';
+import navImage from './images/logo/logo.png';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -92,7 +92,7 @@ export default function Navbar() {
           >
             <Link to="/" className="flex items-center">
               <img 
-                src={Image}
+                src={navImage}
                 alt="Logo" 
                 className="h-10 w-auto" 
               />

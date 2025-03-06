@@ -5,24 +5,7 @@ import { motion } from 'framer-motion';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-const slides = [
-  {
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2000',
-    title: 'Web Development Excellence',
-    description: 'Custom solutions built with cutting-edge technologies'
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=2000',
-    title: 'Professional Design Services',
-    description: 'Creating stunning visuals that capture attention'
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000',
-    title: 'Reliable Hosting Solutions',
-    description: 'Fast, secure, and always available'
-  }
-];
+import { slides } from '../data';
 
 export default function Hero() {
   const navigate = useNavigate();
@@ -39,7 +22,6 @@ export default function Hero() {
   };
 
   const handleStartProject = () => {
-    // Scroll to hosting section
     const hostingSection = document.querySelector('#hosting');
     if (hostingSection) {
       hostingSection.scrollIntoView({ behavior: 'smooth' });
@@ -47,15 +29,32 @@ export default function Hero() {
   };
 
   const handleViewWork = () => {
-    // Scroll to recent projects section
     const recentProjectsSection = document.querySelector('#recent-projects');
     if (recentProjectsSection) {
       recentProjectsSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
+  const slides = [
+    {
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2000',
+      title: 'Web Development Excellence',
+      description: 'Custom solutions built with cutting-edge technologies'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=2000',
+      title: 'Professional Design Services',
+      description: 'Creating stunning visuals that capture attention'
+    },
+    {
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000',
+      title: 'Reliable Hosting Solutions',
+      description: 'Fast, secure, and always available'
+    }
+  ];
+  
   return (
-    <div className="relative bg-gradient-to-b from-indigo-900 to-indigo-800 pt-16">
+    <div id="home" className="relative bg-gradient-to-b from-indigo-900 to-indigo-800 pt-16">
       <Slider {...settings} className="hero-slider">
         {slides.map((slide, index) => (
           <div key={index} className="relative">
