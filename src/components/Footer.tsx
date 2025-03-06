@@ -1,9 +1,12 @@
 import React from 'react';
-import { FaTiktok } from 'react-icons/fa';
-import { Mail, MapPin, Apple as WhatsApp, Home, Briefcase, Users, Phone, Heart, Code, Server, PenTool, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Mail, MapPin, Apple as WhatsApp, Home, Briefcase, Users, Phone, Heart, Code, Server, PenTool, } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import footerImage from './images/logo/logo.png';
 import backImage from './images/projects/footer.jpg';
+import tiktok from './images/footer/tik.png';
+import insta from './images/footer/insta.png';
+import link from './images/footer/link.png';
+import x from './images/footer/x.png';
 
 export default function Footer() {
   const scrollToSection = (id: string) => {
@@ -60,16 +63,19 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex space-x-4 mt-6">
               <a href="https://www.instagram.com/tamuwebsolutions1?igsh=MmI5OXA2aGhrdjJu" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
-                <Instagram className="h-5 w-5" />
+                <img src={insta} alt="Instagram" className="h-5 w-5" />
               </a>
+
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
-                <Linkedin className="h-5 w-5" />
+                <img src={link} alt="Linkedin" className="h-5 w-5" />
               </a>
+
               <a href="https://x.com/tamuwebsolution?t=6-FLSx3Nv0ELUFQhFp-uUw&s=08" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
-                <Twitter className="h-5 w-5" />
+                <img src={x} alt="Twiter_X" className="h-5 w-5" />
               </a>
+
               <a href="#" className="bg-indigo-800 p-2 rounded-full text-gray-300 hover:text-white hover:bg-indigo-700 transition-colors">
-                <FaTiktok className="h-5 w-5" />
+                <img src={tiktok} alt="TikTok" className="h-5 w-5" />
               </a>
             </div>
           </div>
